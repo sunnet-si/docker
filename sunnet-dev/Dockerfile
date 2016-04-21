@@ -9,7 +9,7 @@ RUN yum install epel-release -y
 
 RUN yum groupinstall "Development Tools" -y  && \
   yum install imake libxml2-devel motif-devel libsmi-devel -y && \
-  yum install libXt-devel rpm-build cmake tar rsync createrepo systemtap csh emacs openssh-server -y && \
+  yum install libXt-devel rpm-build cmake tar rsync createrepo systemtap csh emacs openssh-server ksh -y && \
   yum clean all
 
 
